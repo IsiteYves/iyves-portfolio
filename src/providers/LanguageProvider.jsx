@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Yves Isite
  * @date 2025-05-10
  * @description This provider is responsible for managing the application's language settings and translations.
  */

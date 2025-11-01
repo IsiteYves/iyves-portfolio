@@ -7,27 +7,14 @@
                 "title_long_prefix": "Summary of my",
                 "title_long": "{{Work}} Experience"
             },
-            "es": {
-                "title_short": "Experiencia",
-                "title_short_nav": "Experiencia",
-                "title_long_prefix": "Resumen de mi",
-                "title_long": "Experiencia {{Laboral}}"
-            },
             "fr": {
                 "title_short": "Expérience",
                 "title_short_nav": "Expérience",
                 "title_long_prefix": "Résumé de mon",
                 "title_long": "Parcours {{Professionel}}"
-            },
-            "ko": {
-                "title_short": "경험",
-                "title_short_nav": "경험",
-                "title_long_prefix": "이것은 내",
-                "title_long": "{{직업적}} 경험"
             }
         }
     },
-
     "articles": [
         {
             "id": 1,
@@ -40,45 +27,51 @@
             "items": [
                 {
                     "id": 1,
-                    "img": "images/pictures/timeline-place-sapphire-studio.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2016, "month": 3},
-                    "dateEnd": {"year": 2018, "month": 6},
+                    "img": "",
+                    "faIcon": "fa-solid fa-building",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2025,
+                        "month": 5
+                    },
+                    "dateEnd": {
+                        "now": true
+                    },
                     "locales": {
                         "en": {
-                            "title": "{{Backend}} Developer",
-                            "province": "Toronto",
-                            "country": "Canada",
-                            "institution": "Sapphire Studio",
-                            "text": "Developed and maintained [[scalable backend systems]] for various clients, optimizing database performance and implementing RESTful APIs to improve application functionality.",
-                            "list": [],
-                            "tags": ["PHP8.0", "MySQL", "Laravel"]
-                        },
-                        "es": {
-                            "title": "Desarrollador {{Backend}}",
-                            "province": "Toronto",
-                            "country": "Canadá",
-                            "institution": "Sapphire Studio",
-                            "text": "Desarrollé y mantuve [[sistemas backend escalables]] para varios clientes, optimizando el rendimiento de bases de datos e implementando APIs RESTful para mejorar la funcionalidad de las aplicaciones.",
-                            "list": [],
-                            "tags": []
+                            "title": "{{Senior Full Stack}} Engineer",
+                            "province": "Kigali",
+                            "country": "Rwanda",
+                            "institution": "Irembo",
+                            "text": "Irembo is a Rwandan national tech giant that was established with the main purpose of building a platform that makes it possible for all public services accessible to the public with high quality, security and ease.",
+                            "list": [
+                                "Owned the full development of client's Enterprise Resource Planning (ERP) project from scratch to production in 2 months for one of the stores in Kigali City, 8STARS",
+                                "Actively assisted in the reduction of latency and other standard optimization needs for the ERP project, which is now being used by over three sub stores of 8STARS, and processes more than 800 sales monthly",
+                                "Handled geo integrations to manage cashier clocking, configured the whitelisting of the company IP addresses that are allowed to access the platform and performed other security procedures for the solution",
+                                "Regularly organized client meetings and product fine-tuning to actually deliver what the client needed",
+                                "Interactively tested, debugged and resolved production and maintenance issues in existing Clasona products mainly Vesoko - an international product distribution platform, and Vizpac (a car and real estate rental solution)"
+                            ],
+                            "tags": [
+                                "Next.js",
+                                "Kubernetes",
+                                "GraphQL",
+                                "Jasmine",
+                                "TypeScript",
+                                "Go",
+                                "React Native",
+                                "Node.js",
+                                "Redis"
+                            ]
                         },
                         "fr": {
-                            "title": "Développeur {{Backend}}",
-                            "province": "Toronto",
-                            "country": "Canada",
-                            "institution": "Sapphire Studio",
-                            "text": "Développement et maintenance de [[systèmes backend évolutifs]] pour divers clients, optimisation des performances des bases de données et mise en place d’API RESTful pour améliorer les fonctionnalités des applications.",
-                            "list": [],
-                            "tags": []
-                        },
-                        "ko": {
-                            "title": "{{백엔드}} 개발자",
-                            "province": "토론토",
-                            "country": "캐나다",
-                            "institution": "Sapphire Studio",
-                            "text": "다양한 클라이언트를 위한 [[확장 가능한 백엔드 시스템]]을 개발하고 유지보수했으며, 데이터베이스 성능을 최적화하고 RESTful API를 구현하여 애플리케이션 기능을 향상시켰습니다.",
+                            "title": "Ingénieur {{Full Stack Senior}}",
+                            "province": "Kigali",
+                            "country": "Rwanda",
+                            "institution": "Irembo",
+                            "text": "Irembo est un géant technologique national rwandais qui a été créé dans le but principal de construire une plateforme qui rend possible l'accès à tous les services publics au public avec une qualité élevée, la sécurité et la facilité.",
                             "list": [],
                             "tags": []
                         }
@@ -86,45 +79,54 @@
                 },
                 {
                     "id": 2,
-                    "img": "images/pictures/timeline-place-coursera.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2018, "month": 6},
-                    "dateEnd": {"year": 2020, "month": 12},
+                    "img": "",
+                    "faIcon": "fa-solid fa-building",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2024,
+                        "month": 5
+                    },
+                    "dateEnd": {
+                        "year": 2025,
+                        "month": 5
+                    },
                     "locales": {
                         "en": {
-                            "title": "{{Full-Stack}} Engineer",
-                            "province": "",
-                            "country": "Remote",
-                            "institution": "Coursera",
-                            "text": "Worked on enhancing the Coursera website by implementing new features and improving user experience, utilizing both frontend and backend technologies to ensure seamless functionality.",
-                            "list": [],
-                            "tags": ["Svelte", "NodeJS", "Laravel", "REST APIs", "Docker"]
-                        },
-                        "es": {
-                            "title": "Ingeniero {{Full-Stack}}",
-                            "province": "",
-                            "country": "Remoto",
-                            "institution": "Coursera",
-                            "text": "Trabajé en la mejora del sitio web de Coursera implementando nuevas funciones y optimizando la experiencia del usuario, utilizando tecnologías tanto de frontend como de backend para garantizar una funcionalidad fluida.",
-                            "list": [],
-                            "tags": []
+                            "title": "{{Full Stack}} and QA Engineer",
+                            "province": "Kigali",
+                            "country": "Rwanda",
+                            "institution": "Irembo (Contract)",
+                            "text": "Irembo is a Rwandan national tech giant that was established with the main purpose of building a platform that makes it possible for all public services accessible to the public with high quality, security and ease.",
+                            "list": [
+                                "Significantly contributed to the codebase of the company's latest faster dynamic-service one-stop platform named IremboHub (https://new.irembo.gov.rw/)",
+                                "Sometimes held sessions with fellow team members and the product team to discuss Hi-Fi mockups that needed adjustments for better UX, product quality and logical component harmony",
+                                "Significantly improved and tested the IremboPay system which is a new fintech solution developed by Irembo to ease transactions across multiple platforms",
+                                "Created technical design documentations for new epic features including component diagrams, use case and sequence diagrams, and API planning",
+                                "Often did significant work on QA testing the built APIs (both manual and automated testing), doing manual testing on the dynamically configured public services and frontend components",
+                                "Regularly provided timely peer code reviews and suggested improvements in different areas of need"
+                            ],
+                            "tags": [
+                                "Spring Boot",
+                                "Angular",
+                                "Selenium",
+                                "CI/CD",
+                                "Jasmine",
+                                "Design reviews",
+                                "JUnit",
+                                "Documentation writing",
+                                "Requirement analysis",
+                                "Formly"
+                            ]
                         },
                         "fr": {
-                            "title": "Ingénieur {{Full-Stack}}",
-                            "province": "",
-                            "country": "Télétravail",
-                            "institution": "Coursera",
-                            "text": "Participation à l'amélioration du site web de Coursera en développant de nouvelles fonctionnalités et en optimisant l’expérience utilisateur, en utilisant des technologies frontend et backend pour assurer un fonctionnement fluide.",
-                            "list": [],
-                            "tags": []
-                        },
-                        "ko": {
-                            "title": "{{풀스택}} 엔지니어",
-                            "province": "",
-                            "country": "원격",
-                            "institution": "Coursera",
-                            "text": "Coursera 웹사이트의 기능을 향상시키기 위해 새로운 기능을 구현하고 사용자 경험을 개선하는 작업을 수행했으며, 프론트엔드와 백엔드 기술을 모두 활용하여 원활한 동작을 보장했습니다.",
+                            "title": "Ingénieur {{Full Stack}} et QA",
+                            "province": "Kigali",
+                            "country": "Rwanda",
+                            "institution": "Irembo (Contrat)",
+                            "text": "Irembo est un géant technologique national rwandais qui a été créé dans le but principal de construire une plateforme qui rend possible l'accès à tous les services publics au public avec une qualité élevée, la sécurité et la facilité.",
                             "list": [],
                             "tags": []
                         }
@@ -132,45 +134,52 @@
                 },
                 {
                     "id": 3,
-                    "img": "images/pictures/timeline-place-adobe.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2020, "month": 12},
-                    "dateEnd": {"year": 2022, "month": 11},
+                    "img": "",
+                    "faIcon": "fa-brands fa-java",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2023,
+                        "month": 11
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 7
+                    },
                     "locales": {
                         "en": {
-                            "title": "{{Backend}} Engineer",
-                            "province": "New York",
-                            "country": "US",
-                            "institution": "Adobe Inc",
-                            "text": "Contributed to the development of robust backend systems for Adobe Creative Cloud, integrating third-party services and improving data processing efficiency through cloud functions.",
-                            "list": [],
-                            "tags": ["JavaScript", "Flutter", "MongoDB", "CodeIgniter", "Kubernetes"]
-                        },
-                        "es": {
-                            "title": "Ingeniero {{Backend}}",
-                            "province": "Nueva York",
-                            "country": "EE. UU.",
-                            "institution": "Adobe Inc",
-                            "text": "Contribuí al desarrollo de sistemas backend robustos para Adobe Creative Cloud, integrando servicios de terceros y mejorando la eficiencia del procesamiento de datos mediante funciones en la nube.",
-                            "list": [],
-                            "tags": []
+                            "title": "{{Java}} Engineer",
+                            "province": "",
+                            "country": "Remote",
+                            "institution": "IST Group",
+                            "text": "The leading edtech company in Scandinavia. More than 5 million users. Four hundred co-workers and nine offices. From Kiruna in northern Sweden to Munich in southern Germany. IST Group is the leading edtech company in Scandinavia! For more than 40 years, IST has made everyday life easier for students, parents, teachers, and managers.",
+                            "list": [
+                                "Collaborated with the intensive team tasked to augment the legacy version of IST Group's Norway and Swedish School softwares with curriculum management features, enrollment intricacies facilitation and a modern user interface",
+                                "Actively participated in peer mob design (this means designing steps for issue execution in IST Group)",
+                                "Regularly contributed to issue peer reviews, QA meetings, iteration, cross-team talks, and Test-Driven improvement sessions",
+                                "Worked on more than two key products of the company (both web-based & mobile solutions)",
+                                "Occasionally managed team tech discussions and fun content in the fun and off-topic channel of the organization"
+                            ],
+                            "tags": [
+                                "Java",
+                                "Spring",
+                                "Vue.js",
+                                "Rancher",
+                                "Octopus",
+                                "Apache Kafka",
+                                "Atlas (IST Group Internal UI library)",
+                                "Ruby on Rails framework",
+                                "Requirement analysis"
+                            ]
                         },
                         "fr": {
-                            "title": "Ingénieur {{Backend}}",
-                            "province": "New York",
-                            "country": "États-Unis",
-                            "institution": "Adobe Inc",
-                            "text": "Participation au développement de systèmes backend robustes pour Adobe Creative Cloud, intégration de services tiers et amélioration de l’efficacité du traitement des données via des fonctions cloud.",
-                            "list": [],
-                            "tags": []
-                        },
-                        "ko": {
-                            "title": "{{백엔드}} 엔지니어",
-                            "province": "뉴욕",
-                            "country": "미국",
-                            "institution": "Adobe Inc",
-                            "text": "Adobe Creative Cloud를 위한 견고한 백엔드 시스템 개발에 기여하였으며, 서드파티 서비스 통합 및 클라우드 기능을 활용한 데이터 처리 효율 향상에 집중했습니다.",
+                            "title": "Ingénieur {{Java}}",
+                            "province": "",
+                            "country": "Télétravail",
+                            "institution": "IST Group",
+                            "text": "La principale entreprise edtech en Scandinavie. Plus de 5 millions d'utilisateurs. Quatre cents collègues et neuf bureaux. De Kiruna dans le nord de la Suède à Munich dans le sud de l'Allemagne.",
                             "list": [],
                             "tags": []
                         }
@@ -179,69 +188,258 @@
                 {
                     "id": 4,
                     "img": "",
-                    "faIcon": "fa-brands fa-apple",
-                    "faIconColors": {"bg": "#111", "fill": "#EEE"},
-                    "dateStart": {"year": 2022, "month": 12},
-                    "dateEnd": {"now": true},
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2021,
+                        "month": 7
+                    },
+                    "dateEnd": {
+                        "year": 2023,
+                        "month": 3
+                    },
                     "locales": {
                         "en": {
-                            "title": "{{Senior Backend}} Developer",
-                            "province": "California",
-                            "country": "US",
-                            "institution": "Apple Inc",
-                            "text": "Leading a team of developers to design and implement backend solutions for Apple's services, with a focus on:",
+                            "title": "{{Full-Stack}} Developer",
+                            "province": "",
+                            "country": "Remote",
+                            "institution": "Innoways LTD",
+                            "text": "Innoways is a Chinese company that, since 1994, has enabled leading companies to generate measurable values through a continuous cycle of innovation.",
                             "list": [
-                                "Security",
-                                "Scalability to handle millions of users globally",
-                                "Developing RESTful APIs",
-                                "Optimizing database performance with PostgreSQL",
-                                "Building services with Swift, PHP, and GraphQL"
+                                "Actively participated in developing and maintaining a variety of enterprise web applications using modern technologies, orchestration, and deployment environments: PM2, Docker, Jenkins, and Kubernetes",
+                                "Worked on both FE and BE, including implementing UI/UX designs, creating RESTful APIs, CRON jobs and task scheduling, integration, and writing customizable database queries (through readable JSON files)",
+                                "Collaborated with a team of 16 people to develop and deliver robust database and JSON configurations for CMS applications for client companies of INNOWAYS LTD",
+                                "Resolving persistent bugs and other issues on the system's backend side"
                             ],
-                            "tags": ["JavaScript", "React", "NodeJS", "PHP", "REST APIs", "Docker"]
-                        },
-                        "es": {
-                            "title": "Desarrollador {{Senior Backend}}",
-                            "province": "California",
-                            "country": "EE. UU.",
-                            "institution": "Apple Inc",
-                            "text": "Liderando un equipo de desarrolladores para diseñar e implementar soluciones backend para los servicios de Apple, con enfoque en:",
-                            "list": [
-                                "Seguridad",
-                                "Escalabilidad para manejar millones de usuarios a nivel global",
-                                "Desarrollo de APIs RESTful",
-                                "Optimización del rendimiento de bases de datos con PostgreSQL",
-                                "Creación de servicios con Swift, PHP y GraphQL"
-                            ],
-                            "tags": []
+                            "tags": [
+                                "React",
+                                "Django",
+                                "MongoDB",
+                                "TypeScript",
+                                "Koa.js",
+                                "FastAPI",
+                                "Nest.js",
+                                "Next.js",
+                                "Docker",
+                                "PM2",
+                                "Python",
+                                "Requirement analysis",
+                                "AWS"
+                            ]
                         },
                         "fr": {
-                            "title": "Développeur {{Senior Backend}}",
-                            "province": "Californie",
-                            "country": "États-Unis",
-                            "institution": "Apple Inc",
-                            "text": "Responsable d'une équipe de développeurs pour concevoir et mettre en œuvre des solutions backend pour les services Apple, en se concentrant sur :",
-                            "list": [
-                                "La sécurité",
-                                "L’évolutivité pour gérer des millions d’utilisateurs dans le monde",
-                                "Le développement d’API RESTful",
-                                "L’optimisation des performances des bases de données avec PostgreSQL",
-                                "La création de services avec Swift, PHP et GraphQL"
-                            ],
+                            "title": "Développeur {{Full-Stack}}",
+                            "province": "",
+                            "country": "Télétravail",
+                            "institution": "Innoways LTD",
+                            "text": "Innoways est une entreprise chinoise qui, depuis 1994, a permis aux entreprises leaders de générer des valeurs mesurables grâce à un cycle continu d'innovation.",
+                            "list": [],
                             "tags": []
-                        },
-                        "ko": {
-                            "title": "{{시니어 백엔드}} 개발자",
-                            "province": "캘리포니아",
-                            "country": "미국",
-                            "institution": "Apple Inc",
-                            "text": "Apple의 서비스를 위한 백엔드 솔루션을 설계하고 구현하는 개발팀을 이끌며 다음에 중점을 두고 있습니다:",
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-brands fa-angular",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2022,
+                        "month": 10
+                    },
+                    "dateEnd": {
+                        "year": 2023,
+                        "month": 1
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Part-time {{Frontend}} Developer",
+                            "province": "",
+                            "country": "Remote",
+                            "institution": "Sirch",
+                            "text": "Sirch is a startup based in the USA that provides a Search engine that emphasizes Democratic search. There are no links, just results. Next-gen AI search engine.",
                             "list": [
-                                "보안",
-                                "전 세계 수백만 사용자를 처리할 수 있는 확장성",
-                                "RESTful API 개발",
-                                "PostgreSQL을 사용한 데이터베이스 성능 최적화",
-                                "Swift, PHP, GraphQL로 서비스 구축"
+                                "Worked on a powerful search engine that uses OpenAI GPT APIs and Hyberbeam",
+                                "Improved the application's performance, optimized sub-components related to third-party APIs, and made sure to use standard ways of optimization",
+                                "Adjusted queries and arguments passed to GPT APIs as parameters that get better and faster NLP human-friendly responses"
                             ],
+                            "tags": [
+                                "Angular",
+                                "TypeScript",
+                                "Hyperbeam",
+                                "OpenAI GPT APIs",
+                                "Python"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Développeur {{Frontend}} à temps partiel",
+                            "province": "",
+                            "country": "Télétravail",
+                            "institution": "Sirch",
+                            "text": "Sirch est une startup basée aux États-Unis qui fournit un moteur de recherche qui met l'accent sur la recherche démocratique. Il n'y a pas de liens, juste des résultats. Moteur de recherche IA de nouvelle génération.",
+                            "list": [],
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-brands fa-node-js",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2023,
+                        "month": 8
+                    },
+                    "dateEnd": {
+                        "year": 2023,
+                        "month": 11
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Backend}} developer",
+                            "province": "Kigali",
+                            "country": "Rwanda",
+                            "institution": "PivotAccess",
+                            "text": "A Rwandan company that provides technology system solutions and consultancy all over East African countries, with over 30 employees and ~$2 Million in annual revenues, working with vendors like ministries, companies, and other institutions such as Irembo, RRA, and NIDA.",
+                            "list": [
+                                "Individually developed two microservices (Deployment and Boxes/Booklets/Contravention tickets services) for a project of the Rwanda National Police (RNP), Tekana",
+                                "Actively designed new features together with the product and engineering teams, data-flow diagrams, flow charts, Use case diagrams, and Entity Relationship diagrams using UML",
+                                "Conceptualized, designed and implemented the database structure, normalization and optimization",
+                                "Configured CI/CD to match the conventions of the company and successfully deployed Tekana microservices to the production environment"
+                            ],
+                            "tags": [
+                                "NodeJs",
+                                "CI/CD",
+                                "Docker",
+                                "React Native",
+                                "MongoDB",
+                                "TypeScript",
+                                "REST"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Développeur {{Backend}}",
+                            "province": "Kigali",
+                            "country": "Rwanda",
+                            "institution": "PivotAccess",
+                            "text": "Une entreprise rwandaise qui fournit des solutions de systèmes technologiques et des conseils dans tous les pays d'Afrique de l'Est, avec plus de 30 employés et environ 2 millions de dollars de revenus annuels.",
+                            "list": [],
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": "",
+                    "faIcon": "fa-solid fa-microphone",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2023,
+                        "month": 5
+                    },
+                    "dateEnd": {
+                        "year": 2023,
+                        "month": 5
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "English-Kinyarwanda {{Transcriber}}",
+                            "province": "",
+                            "country": "Remote",
+                            "institution": "Sigma.AI",
+                            "text": "Sigma.AI is a global training data collection, preparation, and annotation services company. For companies building the next generation of AI, we provide the highest quality training data at scale, with a human touch.",
+                            "list": [
+                                "Transcribed audio recordings from English to Kinyarwanda",
+                                "Ensured accuracy and completeness of transcriptions, including proper punctuation, grammar, and spelling",
+                                "Adhered to project deadlines and delivered high-quality work",
+                                "Utilized Google Cloud Speech-to-Text transcription software and tools to increase efficiency and accuracy, hence fastening the job",
+                                "Conducted research to understand the context and terminology used in the recordings",
+                                "Maintained confidentiality and integrity of client information",
+                                "Demonstrated professionalism and accountability in all interactions with clients and colleagues"
+                            ],
+                            "tags": [
+                                "Transcription",
+                                "English",
+                                "Kinyarwanda"
+                            ]
+                        },
+                        "fr": {
+                            "title": "{{Transcripteur}} Anglais-Kinyarwanda",
+                            "province": "",
+                            "country": "Télétravail",
+                            "institution": "Sigma.AI",
+                            "text": "Sigma.AI est une entreprise mondiale de services de collecte, préparation et annotation de données d'entraînement.",
+                            "list": [],
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "img": "",
+                    "faIcon": "fa-solid fa-graduation-cap",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2021,
+                        "month": 3
+                    },
+                    "dateEnd": {
+                        "year": 2022,
+                        "month": 8
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Intern {{Software}} Engineer",
+                            "province": "",
+                            "country": "Remote",
+                            "institution": "Andela",
+                            "text": "Andela is a global job placement network for software developers. Andela focuses on sustainable careers, connecting technologists with long-term engagements, access to international roles, competitive compensation, and career coaching through the Andela Learning Community.",
+                            "list": [
+                                "Deployed the working applications on DigitalOcean using GitHub Actions, Kubernetes, and Docker",
+                                "Resolved technical issues raised in the production stage",
+                                "Developed, tested, and deployed products with the team using the MERN stack",
+                                "Designed new features, data-flow diagrams, flow charts, and other diagrams and designs using UML",
+                                "Reviewed other developers' source code and mentored them"
+                            ],
+                            "tags": [
+                                "ReactJS",
+                                "NextJS",
+                                "CI/CD",
+                                "Docker",
+                                "Tailwind",
+                                "NodeJS",
+                                "PostCSS",
+                                "TypeScript",
+                                "REST",
+                                "ExpressJS",
+                                "Redux",
+                                "Code Peer Review",
+                                "Task management (with Jira and PivotalTracker)"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Ingénieur {{Logiciel}} Stagiaire",
+                            "province": "",
+                            "country": "Télétravail",
+                            "institution": "Andela",
+                            "text": "Andela est un réseau mondial de placement d'emplois pour les développeurs de logiciels.",
+                            "list": [],
                             "tags": []
                         }
                     }
