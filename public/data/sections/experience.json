@@ -21,8 +21,8 @@
             "component": "ArticleTimeline",
             "locales": {},
             "settings": {
-                "order_items_by": "id",
-                "order_items_sort": "dateStart"
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
             },
             "items": [
                 {
@@ -45,8 +45,8 @@
                             "title": "{{Senior Full Stack}} Engineer",
                             "province": "Kigali",
                             "country": "Rwanda",
-                            "institution": "Irembo",
-                            "text": "Irembo is a Rwandan national tech giant that was established with the main purpose of building a platform that makes it possible for all public services accessible to the public with high quality, security and ease.",
+                            "institution": "Clasona",
+                            "text": "",
                             "list": [
                                 "Owned the full development of client's Enterprise Resource Planning (ERP) project from scratch to production in 2 months for one of the stores in Kigali City, 8STARS",
                                 "Actively assisted in the reduction of latency and other standard optimization needs for the ERP project, which is now being used by over three sub stores of 8STARS, and processes more than 800 sales monthly",

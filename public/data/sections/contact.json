@@ -20,8 +20,8 @@
             "id": 1,
             "component": "ArticleContactForm",
             "settings": {
-                "email_js_public_key": "tzObcsmOwHvPy6Rhp",
-                "email_js_service_id": "service_4h8g7vb",
+                "email_js_public_key": "WHw_aLH8ruf5hZOc-",
+                "email_js_service_id": "service_o07guzp",
                 "email_js_template_id": "template_react"
             },
             "locales": {
@@ -63,9 +63,9 @@
                         "bg": "",
                         "fill": ""
                     },
-                    "label": "+1 (123) 456-7890",
+                    "label": "+250791457023",
                     "link": {
-                        "href": "tel:11234567890",
+                        "href": "tel:0791457023",
                         "tooltipString": "call_me"
                     },
                     "locales": {
@@ -84,9 +84,9 @@
                         "bg": "",
                         "fill": ""
                     },
-                    "label": "mark.choi@email.com",
+                    "label": "yvesisite@gmail.com",
                     "link": {
-                        "href": "mailto:mark.choi@email.com",
+                        "href": "mailto:yvesisite@gmail.com",
                         "tooltipString": "email_me"
                     },
                     "locales": {
@@ -102,68 +102,14 @@
                         "bg": "",
                         "fill": ""
                     },
-                    "label": "@markchoi",
+                    "label": "Isite Yves",
                     "link": {
-                        "href": "https://linkedin.com/in/",
+                        "href": "http://linkedin.com/in/isite-yves-5779491a3",
                         "tooltipString": "open_website"
                     },
                     "locales": {
                         "en": {
                             "title": "LinkedIn"
-                        }
-                    }
-                },
-                {
-                    "id": 4,
-                    "faIcon": "fa-brands fa-facebook",
-                    "faIconColors": {
-                        "bg": "",
-                        "fill": ""
-                    },
-                    "label": "Mark Choi",
-                    "link": {
-                        "href": "https://facebook.com/profiles/mark.choi.855/default",
-                        "tooltipString": "open_website"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Facebook"
-                        }
-                    }
-                },
-                {
-                    "id": 5,
-                    "faIcon": "fa-brands fa-instagram",
-                    "faIconColors": {
-                        "bg": "",
-                        "fill": ""
-                    },
-                    "label": "@codingmark",
-                    "link": {
-                        "href": "https://instagram.com/",
-                        "tooltipString": "open_website"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Instagram"
-                        }
-                    }
-                },
-                {
-                    "id": 6,
-                    "faIcon": "fa-brands fa-tiktok",
-                    "faIconColors": {
-                        "bg": "",
-                        "fill": ""
-                    },
-                    "label": "@markchoi",
-                    "link": {
-                        "href": "https://tiktok.com/@markchoi",
-                        "tooltipString": "open_website"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "TikTok"
                         }
                     }
                 }
